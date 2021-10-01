@@ -1,0 +1,38 @@
+body{
+    background: url(../img/fondo3.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+  }
+h2{
+    margin-top: 9%;
+    margin-left: 9%;
+    color: white;
+    font-size: 3em;
+}
+input{
+    background: transparent;
+    font-size: 2em;
+    color: white;
+    margin-left: 22%;
+    padding-left: 10px;
+    text-align: center;
+  }
+  button{
+    background: transparent;
+    font-size: 2em;
+    color: white;
+    margin-left: 5%;
+    width: 250px;
+    background: rgb(43, 35, 35);
+    cursor: pointer;
+  }
+  ::placeholder{
+      color: white;
+      font-size: 20px;
+  }
+  h1{
+      margin-left: 8%;
+      margin-top: 2%;
+      color: white;
+      font-family: 'Courier New', Courier, monospace;
+  }

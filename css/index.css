@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Nosifer', cursive;
+    color: rgb(255, 255, 255);
+}
+body{
+    background: url(../img/fondo5.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+  }
+#nav-bar {
+    position: absolute;
+    width: 60%;
+}
+a {
+    text-decoration: none;
+    font-family: 'Stick No Bills', sans-serif;
+    color: rgb(255, 255, 255);
+}
+p.parrafo-enlace {
+    font-size: 40px;
+    color: white;
+    position: absolute;
+}
+div {
+	height: 55px;
+    margin-top: 22%;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 44px;
+    color: white;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabla de multiplicar</title>
+    <link rel="stylesheet" href="css/navegacion.css">
+    <link rel="stylesheet" href="css/ejercicio2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li> <a href="inicio.html">Inicio</a></li>
+            <li> <a href="ejercicio1.html">Sumatoria de los Multiplos de 3</a> </li>
+            <li> <a href="ejercicio2.html">Tablas de Multiplicar</a> </li>
+            <li> <a href="ejercicio3.html">Sumatoria Pares y Impares</a> </li>
+            <li> <a href="ejercicio4.html">Serie 5 en 5</a> </li>
+        </ul>
+    </nav>
+    <h2>Tablas de multiplicar del numero que seleccione, sera del 1 al 100:   </h2> 
+    <br>
+    <select id="numero" onchange="Calcular();">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+    <div id='multiplicacion'></div>
+</body>
+</html>
+<script>
+    function Calcular(){
+    var producto='';
+    var num=parseInt(document.getElementById("numero").value);
+    for(var i=1;i<=100;i++){
+        producto+="<h1> "+i+" x "+num+" = "+i*num+"</h1>";
+}
+document.getElementById("multiplicacion").innerHTML=producto;
+}
+</script>
